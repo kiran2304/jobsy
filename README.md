@@ -219,7 +219,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📸 Screenshots
 
-> Add screenshots of your application here to showcase the UI
+### 🎨 Resume Builder
+![Resume Builder](screenshots/resume-builder.png)
+*AI-powered resume builder with real-time preview and ATS score checker*
+
+### 🏢 Company Explorer
+![Companies](screenshots/companies.png)
+*Browse top Indian companies with detailed profiles and job listings*
+
+### 📊 Application Dashboard
+![Dashboard](screenshots/dashboard.png)
+*Track all your applications with status updates and analytics*
+
+### 🗺️ Learning Roadmap
+![Roadmap](screenshots/roadmap.png)
+*Personalized career development paths with progress tracking*
+
+### ⚙️ Settings & Data Engine
+![Settings](screenshots/settings.png)
+*Real-time data sync engine and integration management*
 
 ---
 
