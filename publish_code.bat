@@ -43,11 +43,16 @@ echo 5. Removing old origin (if exists)...
 git remote remove origin 2>nul
 
 echo.
-echo 6. Adding remote origin...
-git remote add origin https://github.com/kiran2304/jobsy.git
+echo 6. adding remote origin...
+git remote add origin https://github.com/kiran2304/jobsy.git 2>nul
+git remote set-url origin https://github.com/kiran2304/jobsy.git
 
 echo.
-echo 7. Pushing to GitHub...
+echo 7. Syncing with remote...
+git pull origin main --allow-unrelated-histories
+
+echo.
+echo 8. Pushing to GitHub...
 echo (You may be asked to sign in to GitHub in a browser window)
 git push -u origin main
 
