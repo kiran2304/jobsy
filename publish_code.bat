@@ -48,13 +48,9 @@ git remote add origin https://github.com/kiran2304/jobsy.git 2>nul
 git remote set-url origin https://github.com/kiran2304/jobsy.git
 
 echo.
-echo 7. Syncing with remote...
-git pull origin main --allow-unrelated-histories
-
-echo.
-echo 8. Pushing to GitHub...
-echo (You may be asked to sign in to GitHub in a browser window)
-git push -u origin main
+echo 7. Pushing to GitHub (Force Overwrite)...
+echo (This secures your local code as the main version)
+git push -u origin main --force
 
 echo.
 echo ==========================================
