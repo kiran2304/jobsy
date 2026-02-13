@@ -1,0 +1,196 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Senior Frontend Engineer",
+            "company": "TechCorp",
+            "location": "Bangalore, KA",
+            "salary": "₹25L - ₹35L",
+            "type": "Full-time",
+            "description": "We are looking for an experienced Frontend Engineer to join our team."
+        },
+        {
+            "id": 2,
+            "title": "Product Designer",
+            "company": "Creative Studio",
+            "location": "Remote",
+            "salary": "₹15L - ₹22L",
+            "type": "Full-time",
+            "description": "Design beautiful and intuitive user interfaces."
+        },
+        {
+            "id": 101,
+            "title": "Software Engineer II",
+            "company": "Google",
+            "location": "Bangalore, KA",
+            "type": "Full-time",
+            "salary": "₹35L - ₹55L",
+            "salaryMin": 35,
+            "salaryMax": 55,
+            "skills": [
+                "Python",
+                "C++",
+                "Algorithms",
+                "Distributed Systems"
+            ],
+            "posted": "2 days ago",
+            "applyLink": "https://www.google.com/about/careers/applications/jobs/results/?location=Bangalore"
+        },
+        {
+            "id": 102,
+            "title": "SDE-2 (Frontend)",
+            "company": "Amazon",
+            "location": "Hyderabad, TS",
+            "type": "Full-time",
+            "salary": "₹40L - ₹60L",
+            "salaryMin": 40,
+            "salaryMax": 60,
+            "skills": [
+                "React",
+                "JavaScript",
+                "AWS",
+                "CSS"
+            ],
+            "posted": "1 day ago",
+            "applyLink": "https://www.amazon.jobs/en/search?base_query=Frontend&loc_query=Hyderabad"
+        },
+        {
+            "id": 103,
+            "title": "Product Design Lead",
+            "company": "Microsoft",
+            "location": "Noida, UP",
+            "type": "Full-time",
+            "salary": "₹45L - ₹70L",
+            "salaryMin": 45,
+            "salaryMax": 70,
+            "skills": [
+                "Figma",
+                "UI/UX",
+                "Interaction Design"
+            ],
+            "posted": "3 days ago",
+            "applyLink": "https://careers.microsoft.com/us/en/search-results?keywords=Design&location=Noida"
+        },
+        {
+            "id": 104,
+            "title": "Backend Developer",
+            "company": "Zomato",
+            "location": "Gurgaon, HR",
+            "type": "Full-time",
+            "salary": "₹20L - ₹35L",
+            "salaryMin": 20,
+            "salaryMax": 35,
+            "skills": [
+                "Node.js",
+                "PostgreSQL",
+                "Redis"
+            ],
+            "posted": "2 days ago",
+            "applyLink": "https://www.linkedin.com/jobs/search/?keywords=Zomato&location=Gurgaon"
+        },
+        {
+            "id": 105,
+            "title": "Senior Data Scientist",
+            "company": "Flipkart",
+            "location": "Bangalore, KA",
+            "type": "Full-time",
+            "salary": "₹30L - ₹50L",
+            "salaryMin": 30,
+            "salaryMax": 50,
+            "skills": [
+                "Python",
+                "Machine Learning",
+                "TensorFlow",
+                "SQL"
+            ],
+            "posted": "4 days ago",
+            "applyLink": "https://www.naukri.com/flipkart-jobs"
+        },
+        {
+            "id": 106,
+            "title": "Full Stack Engineer",
+            "company": "Swiggy",
+            "location": "Remote",
+            "type": "Full-time",
+            "salary": "₹25L - ₹45L",
+            "salaryMin": 25,
+            "salaryMax": 45,
+            "skills": [
+                "Go",
+                "React",
+                "Microservices"
+            ],
+            "posted": "5 days ago",
+            "applyLink": "https://www.linkedin.com/jobs/search/?keywords=Swiggy&location=Remote"
+        },
+        {
+            "id": 107,
+            "title": "System Engineer",
+            "company": "TCS",
+            "location": "Mumbai, MH",
+            "type": "Full-time",
+            "salary": "₹4L - ₹8L",
+            "salaryMin": 4,
+            "salaryMax": 8,
+            "skills": [
+                "Java",
+                "SQL",
+                "Unix"
+            ],
+            "posted": "1 week ago",
+            "applyLink": "https://www.tcs.com/careers"
+        },
+        {
+            "id": 108,
+            "title": "Technology Analyst",
+            "company": "Infosys",
+            "location": "Pune, MH",
+            "type": "Full-time",
+            "salary": "₹5L - ₹9L",
+            "salaryMin": 5,
+            "salaryMax": 9,
+            "skills": [
+                "C#",
+                ".NET",
+                "Azure"
+            ],
+            "posted": "1 week ago",
+            "applyLink": "https://www.infosys.com/careers/"
+        },
+        {
+            "id": 111,
+            "title": "DevOps Engineer",
+            "company": "Razorpay",
+            "location": "Bangalore, KA",
+            "type": "Full-time",
+            "salary": "₹25L - ₹40L",
+            "salaryMin": 25,
+            "salaryMax": 40,
+            "skills": [
+                "AWS",
+                "Kubernetes",
+                "Terraform"
+            ],
+            "posted": "1 day ago",
+            "applyLink": "https://razorpay.com/jobs/"
+        },
+        {
+            "id": 112,
+            "title": "React Native Developer",
+            "company": "PhonePe",
+            "location": "Bangalore, KA",
+            "type": "Full-time",
+            "salary": "₹28L - ₹45L",
+            "salaryMin": 28,
+            "salaryMax": 45,
+            "skills": [
+                "React Native",
+                "JavaScript",
+                "Redux"
+            ],
+            "posted": "2 days ago",
+            "applyLink": "https://www.phonepe.com/careers/"
+        }
+    ],
+    "applications": []
+}
