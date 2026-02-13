@@ -1,109 +1,52 @@
 # 🚀 KodnestCareers - Your Complete Job Search Ecosystem
 
-**KodnestCareers** is a modern, full-featured job search platform built with React that helps job seekers discover opportunities, build professional resumes, track applications, and prepare for interviews - all in one place.
+> [!NOTE]
+> **Note for Teacher:** While you can explore many features as a guest, we recommend **Signing Up or Logging In** to experience the full personalized career ecosystem, including the personalized dashboard and resume builder. It is **not compulsory** to log in to see the core job discovery features.
 
-![KodnestCareers Banner](https://img.shields.io/badge/React-18.3-blue?logo=react) ![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite) ![License](https://img.shields.io/badge/License-MIT-green)
+**KodnestCareers** is a modern, full-featured job search platform built with React and a Node.js/Prisma backend. It helps job seekers discover opportunities, build professional resumes, track applications, and prepare for interviews - all in one place.
+
+![KodnestCareers Banner](https://img.shields.io/badge/React-18.3-blue?logo=react) ![Node.js](https://img.shields.io/badge/Node.js-20.x-green?logo=node.js) ![Prisma](https://img.shields.io/badge/Prisma-6.x-2D3748?logo=prisma) ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)
+
+---
+
+## 🛠️ Project Setup
+
+This project consists of a **Frontend** (React + Vite) and a **Backend** (Node.js + Express + Prisma + SQLite).
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### 1. Backend Setup
+```bash
+cd backend
+npm install
+npx prisma generate
+npx prisma migrate dev --name init
+npm run dev
+```
+*The backend will run on `http://localhost:5000`*
+
+### 2. Frontend Setup
+```bash
+# Open a new terminal
+npm install
+npm run dev
+```
+*The frontend will run on `http://localhost:5173`*
+
+---
+
+## 🎯 Getting Started
+1. **Open the App**: Navigate to `http://localhost:5173`.
+2. **Sign Up / Login**: Click the "Sign Up" button in the navigation bar. **This is required to unlock all features.**
+3. **Explore Jobs**: Visit the "Find Jobs" section to see listings from top companies (Google, Zomato, etc.).
+4. **Dashboard**: After logging in, track your applications and view your career stats.
+5. **Resume Builder**: Create and preview your professional resume.
 
 ---
 
 ## ✨ Features
-
-### 🔍 **Smart Job Discovery**
-- Real-time job listings from top Indian companies (Google, Microsoft, Amazon, Flipkart, Zomato, Swiggy, TCS, Infosys)
-- Advanced filters: Location, Salary Range, Job Type, Skills
-- Direct "Apply Now" links to company career pages
-- Simulated real-time data sync engine
-
-### 📊 **Personalized Dashboard**
-- Track all your job applications in one place
-- Application status tracking (Applied, Interview, Offer, Rejected)
-- Quick stats: Total applications, interviews scheduled, offers received
-- Recent activity timeline
-
-### 📝 **AI-Powered Resume Builder**
-- Professional resume templates
-- AI-powered content suggestions
-- ATS (Applicant Tracking System) score checker
-- Real-time preview
-- Export to PDF
-
-### 💼 **Career Tools**
-- **Cover Letter Generator** - AI-assisted personalized cover letters
-- **Skill Assessment** - Test your knowledge in various tech domains
-- **Learning Roadmap** - Personalized career development paths
-- **Company Explorer** - Research top employers with detailed profiles
-
-### 📧 **Communication Hub**
-- Centralized inbox for all job-related emails
-- Application status notifications
-- Interview invitations tracking
-
-### ⚙️ **Settings & Integrations**
-- Manage data sources and scraping preferences
-- Notification preferences
-- Privacy controls
-- Real-time data sync controls
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend Framework:** React 18.3
-- **Build Tool:** Vite 5.4
-- **Routing:** React Router DOM 7.1
-- **Icons:** Lucide React
-- **Styling:** Vanilla CSS with CSS Variables
-- **State Management:** React Hooks (useState, useEffect)
-- **Data Persistence:** LocalStorage
-- **Fonts:** Google Fonts (Inter, Outfit)
-
----
-
-## 📦 Installation
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/kiran2304/KodnestCareers.git
-   cd KodnestCareers
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Run development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open in browser**
-   ```
-   http://localhost:5173
-   ```
-
-5. **Build for production**
-   ```bash
-   npm run build
-   ```
-
----
-
-## 🎯 Usage
-
-### Getting Started
-1. **Sign Up** - Create your account (demo mode uses localStorage)
-2. **Explore Jobs** - Browse through curated job listings
-3. **Apply** - Click "Apply Now" to visit company career pages
-4. **Track Applications** - Monitor your progress in the Dashboard
-5. **Build Resume** - Use the AI-powered resume builder
-6. **Prepare** - Take skill assessments and follow learning roadmaps
 
 ### Key Pages
 - `/` - Landing page with hero section

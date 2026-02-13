@@ -15,7 +15,7 @@ export const useUI = () => {
 };
 
 export const UIProvider = ({ children }) => {
-    console.log('UIProvider initialization');
+
 
     // Modal State
     const [modal, setModal] = useState({
@@ -103,7 +103,7 @@ export const UIProvider = ({ children }) => {
         setStatusModal(prev => ({ ...prev, isOpen: false }));
     }, []);
 
-    console.log('UIProvider rendering');
+
     return (
         <UIContext.Provider value={{ confirm, alert, showToast, removeToast, showStatus }}>
 
@@ -122,13 +122,17 @@ export const UIProvider = ({ children }) => {
             )}
 
             {/* Status Modal */}
-            <StatusModal
-                isOpen={statusModal.isOpen}
-                title={statusModal.title}
-                message={statusModal.message}
-                type={statusModal.type}
-                onClose={closeStatus}
-            />
+            <AnimatePresence>
+                {statusModal.isOpen && (
+                    <StatusModal
+                        isOpen={statusModal.isOpen}
+                        title={statusModal.title}
+                        message={statusModal.message}
+                        type={statusModal.type}
+                        onClose={closeStatus}
+                    />
+                )}
+            </AnimatePresence>
 
             {/* Toast Container */}
             <div style={{

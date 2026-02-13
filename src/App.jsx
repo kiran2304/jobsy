@@ -19,7 +19,7 @@ import Settings from './pages/Settings';
 import { UIProvider } from './context/UIContext';
 
 function App() {
-  console.log('App component rendering');
+
   const location = useLocation();
 
   return (

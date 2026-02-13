@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Search, MapPin, ArrowRight, CheckCircle, Users, Briefcase, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useUI } from '../context/UIContext';
 
 const Home = () => {
+    const { showStatus } = useUI();
+
+    useEffect(() => {
+        showStatus(
+            "Welcome to KodnestCareers!",
+            "While login is recommended for the full experience (Resume Builder, Dashboard, etc.), it is not strictly compulsory to explore the core features.",
+            "info"
+        );
+    }, [showStatus]);
+
     return (
         <div style={{ paddingBottom: '4rem' }}>
             {/* Hero Section */}
